@@ -1,0 +1,14 @@
+.video{
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  background: rgb(97, 177, 197) ;
+  width: 1500px;
+  height: 600px;
+  margin: auto;
+  border-radius: 10px ;
+  border: 2px solid gray;
+}

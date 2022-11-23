@@ -1,0 +1,41 @@
+.contenedor-nav {
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+ 
+
+}
+
+.nav {
+    text-align: center;
+    
+    }
+    
+    .nav p {
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 5px solid transparent;
+        margin: 15px;
+     
+
+        }
+    
+    .nav p:hover {
+        border-bottom: 3px solid white;
+        text-shadow: 15px;
+        text-shadow: 1px 3px 5 #969696, 1px 8px 4px #aba8a8;
+    
+    }
+    .nav {
+        margin: 5px ;
+        text-align: center;
+     }
+
+     @media screen and (max-width: 500px){
+        .nav p {
+            font-size: 20px;    
+            }
+    
+      }
